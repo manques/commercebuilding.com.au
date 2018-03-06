@@ -1,0 +1,2 @@
+[19-Oct-2017 22:53:30 UTC] PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /home/commerceb/public_html/wp-content/plugins/justified-image-grid/timthumb.php on line 826
+[29-Nov-2017 03:35:41 UTC] PHP Warning:  fopen(./cache/timthumb_int_26f0f553f2535692922c0b0b469ad6a0.timthumb.txt): failed to open stream: No such file or directory in /home/commerceb/public_html/wp-content/plugins/justified-image-grid/timthumb.php on line 1106

@@ -1,0 +1,21 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* footer social media */ 
+
+div.CBMainSocialMedia{
+				display:flex;
+				justify-content:space-around;
+				width:100%;
+			}
+			div.CBMainSocialMediaEach{
+				width:15%;
+              	height:auto;
+			}
+			div.CBMainSocialMediaEach>a>img{
+				width:100%;
+              	height:auto;
+			}
+			div.CBMainSocialMediaEach:hover{
+			  
+			}</style>
+<!-- end Simple Custom CSS and JS -->

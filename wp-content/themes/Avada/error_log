@@ -1,0 +1,23 @@
+[08-Dec-2016 23:30:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[20-Apr-2017 07:39:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[15-May-2017 15:26:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[22-Oct-2017 18:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[17-Dec-2017 16:00:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/Avada/404.php on line 1
+[20-Dec-2017 02:35:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[20-Dec-2017 14:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1
+[29-Dec-2017 06:31:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/Avada/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/Avada/index.php on line 1

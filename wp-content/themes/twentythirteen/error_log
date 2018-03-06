@@ -1,0 +1,9 @@
+[05-Jun-2017 23:30:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[17-Dec-2017 16:01:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/twentythirteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[04-Mar-2018 09:00:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/commerceb/public_html/wp-content/themes/twentythirteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/commerceb/public_html/wp-content/themes/twentythirteen/404.php on line 10

@@ -1,0 +1,462 @@
+RewriteEngine On
+
+# 301 --- /brisbane => /
+RewriteRule ^brisbane$ /? [L,R=301]
+
+# 301 --- /melbourne => /
+RewriteRule ^melbourne$ /? [L,R=301]
+
+# 301 --- /perth => /
+RewriteRule ^perth$ /? [L,R=301]
+
+# 301 --- /bunting => /
+RewriteRule ^bunting$ /? [L,R=301]
+
+# 301 --- /sydney => /
+RewriteRule ^sydney$ /? [L,R=301]
+
+
+# 301 --- /outdoor-bunting => /
+RewriteRule ^outdoor-bunting$ /? [L,R=301]
+
+# 301 --- /bunting-flags => /pennant-bunting/
+RewriteRule ^bunting-flags$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /promotional-bunting => /promotional-corporate-bunting/
+RewriteRule ^promotional-bunting$ /promotional-corporate-bunting/? [L,R=301]
+
+# 301 --- /flags-on-rope => /pennant-bunting/
+RewriteRule ^flags-on-rope$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /cit => /
+RewriteRule ^cit$ /? [L,R=301]
+
+# 301 --- /gallery => /
+RewriteRule ^gallery$ /? [L,R=301]
+
+# 301 --- /cadbury => /
+RewriteRule ^cadbury$ /? [L,R=301]
+
+# 301 --- /australia-flag-bunting => /australian-flag-bunting/
+RewriteRule ^australia-flag-bunting$ /australian-flag-bunting/? [L,R=301]
+
+# 301 --- /lemon => /custom-shaped-bunting/
+RewriteRule ^lemon$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /lime => /custom-shaped-bunting/
+RewriteRule ^lime$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /custom-shaped-bunting => /custom-shaped-bunting/
+RewriteRule ^custom-shaped-bunting$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /terms-use => /privacy-policy/
+RewriteRule ^terms-use$ /privacy-policy/? [L,R=301]
+
+# 301 --- /drop-zone => /printed-safety-bunting/
+RewriteRule ^drop-zone$ /printed-safety-bunting/? [L,R=301]
+
+# 301 --- /gala-blue => /gala-bunting/
+RewriteRule ^gala-blue$ /gala-bunting/? [L,R=301]
+
+# 301 --- /backstroke-flags => /custom-backstroke-flags/
+RewriteRule ^backstroke-flags$ /custom-backstroke-flags/? [L,R=301]
+
+# 301 --- /gala-purple => /gala-bunting/
+RewriteRule ^gala-purple$ /gala-bunting/? [L,R=301]
+
+# 301 --- /barefoot-radler => /custom-shaped-bunting/
+RewriteRule ^barefoot-radler$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /privacy-policy => /privacy-policy/
+RewriteRule ^privacy-policy$ /privacy-policy/? [L,R=301]
+
+# 301 --- /queensland-transport => /custom-printed-bunting/
+RewriteRule ^queensland-transport$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /blue-safety => /safety-bunting/
+RewriteRule ^blue-safety$ /safety-bunting/? [L,R=301]
+
+# 301 --- /safety-orange => /safety-bunting/
+RewriteRule ^safety-orange$ /safety-bunting/? [L,R=301]
+
+# 301 --- /go-purple => /safety-bunting/
+RewriteRule ^go-purple$ /safety-bunting/? [L,R=301]
+
+# 301 --- /gala-checked => /gala-bunting/
+RewriteRule ^gala-checked$ /gala-bunting/? [L,R=301]
+
+# 301 --- /australian-gt => /custom-printed-bunting/
+RewriteRule ^australian-gt$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /endeavor-operations => /custom-printed-bunting/
+RewriteRule ^endeavor-operations$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /gala-yellow => /gala-bunting/
+RewriteRule ^gala-yellow$ /gala-bunting/? [L,R=301]
+
+# 301 --- /queanbeyan-regatta => /custom-printed-bunting/
+RewriteRule ^queanbeyan-regatta$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /scotts-college => /custom-printed-bunting/
+RewriteRule ^scotts-college$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /hand-wavers-and-promotional-goods => /hand-flags/
+RewriteRule ^hand-wavers-and-promotional-goods$ /hand-flags/? [L,R=301]
+
+# 301 --- /cheap-cheerful-gala-style-bunting => /gala-bunting/
+RewriteRule ^cheap-cheerful-gala-style-bunting$ /gala-bunting/? [L,R=301]
+
+# 301 --- /sitemap.xml => /
+RewriteRule ^sitemap\.xml$ /? [L,R=301]
+
+# 301 --- /man-green-bike => /custom-printed-bunting/
+RewriteRule ^man-green-bike$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /green-safety-flag => /safety-bunting/
+RewriteRule ^green-safety-flag$ /safety-bunting/? [L,R=301]
+
+# 301 --- /clone-exclusion-zone => /safety-bunting/
+RewriteRule ^clone-exclusion-zone$ /safety-bunting/? [L,R=301]
+
+# 301 --- /clone-coopers-clear => /custom-shaped-bunting/
+RewriteRule ^clone-coopers-clear$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /gallery/pennant-bunting => /pennant-bunting/
+RewriteRule ^gallery/pennant-bunting$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /stirling-homes-0 => /custom-printed-bunting/
+RewriteRule ^stirling-homes-0$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /clone-drop-zone => /safety-bunting/
+RewriteRule ^clone-drop-zone$ /safety-bunting/? [L,R=301]
+
+# 301 --- /exclusion-zone-0 => /safety-bunting/
+RewriteRule ^exclusion-zone-0$ /safety-bunting/? [L,R=301]
+
+# 301 --- /clone-scotts-college => /custom-printed-bunting/
+RewriteRule ^clone-scotts-college$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /mac-warrior-1 => /custom-printed-bunting/
+RewriteRule ^mac-warrior-1$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /jim-beam-0 => /custom-printed-bunting/
+RewriteRule ^jim-beam-0$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /norco-rural-0 => /custom-printed-bunting/
+RewriteRule ^norco-rural-0$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /mckinlay-shire-council => /custom-printed-bunting/
+RewriteRule ^mckinlay-shire-council$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /clone-barefoot-radler => /custom-printed-bunting/
+RewriteRule ^clone-barefoot-radler$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /gallery/promotional-bunting => /promotional-corporate-bunting/
+RewriteRule ^gallery/promotional-bunting$ /promotional-corporate-bunting/? [L,R=301]
+
+# 301 --- /gallery/backstroke-bunting => /custom-backstroke-flags/
+RewriteRule ^gallery/backstroke-bunting$ /custom-backstroke-flags/? [L,R=301]
+
+# 301 --- /gallery/safety-flagging => /safety-bunting/
+RewriteRule ^gallery/safety-flagging$ /safety-bunting/? [L,R=301]
+
+# 301 --- /safety-flagging => /safety-bunting/
+RewriteRule ^safety-flagging$ /safety-bunting/? [L,R=301]
+
+# Rewrite --- http://www.aboutbunting.com.au/printed-hi-vis/www.leprint.com.au => http://www.aboutbunting.com.au/
+RewriteRule ^printed-hi-vis/www\.leprint\.com\.au$ /?&%{QUERY_STRING}
+
+
+# 301 --- /gallery/gala-bunting => /gala-bunting/
+RewriteRule ^gallery/gala-bunting$ /gala-bunting/? [L,R=301]
+
+# 301 --- /taxonomy/term/6/0 => /pennant-bunting/
+RewriteRule ^taxonomy/term/6/0$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /safety-orange-your-logo => /safety-bunting/
+RewriteRule ^safety-orange-your-logo$ /safety-bunting/? [L,R=301]
+
+# 301 --- /safety-orange-your-message => /safety-bunting/
+RewriteRule ^safety-orange-your-message$ /safety-bunting/? [L,R=301]
+
+# 301 --- /children-within-arms-reach => /custom-backstroke-flags/
+RewriteRule ^children-within-arms-reach$ /custom-backstroke-flags/? [L,R=301]
+
+# 301 --- /clone-mac-warrior-0 => /pennant-bunting/
+RewriteRule ^clone-mac-warrior-0$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /clone-parents-be-alert => /custom-backstroke-flags/
+RewriteRule ^clone-parents-be-alert$ /custom-backstroke-flags/? [L,R=301]
+
+# 301 --- /great-hamster-massacre-0 => /custom-shaped-bunting/
+RewriteRule ^great-hamster-massacre-0$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /category/bunting-category/gala-bunting => /gala-bunting/
+RewriteRule ^category/bunting-category/gala-bunting$ /gala-bunting/? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=172 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=172($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /category/bunting-category/safety-flagging => /safety-bunting/
+RewriteRule ^category/bunting-category/safety-flagging$ /safety-bunting/? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=359 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=359($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=37 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=37($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=85 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=85($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=175 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=175($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=133 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=133($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /category/bunting-category/backstroke-bunting => /custom-backstroke-flags/
+RewriteRule ^category/bunting-category/backstroke-bunting$ /custom-backstroke-flags/? [L,R=301]
+
+# 301 --- /category/bunting-category/promotional-bunting => /promotional-corporate-bunting/
+RewriteRule ^category/bunting-category/promotional-bunting$ /promotional-corporate-bunting/? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=66 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=66($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /clone-gifts => /custom-shaped-bunting/
+RewriteRule ^clone-gifts$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /bluesafetyflag => /safety-bunting/
+RewriteRule ^bluesafetyflag$ /safety-bunting/? [L,R=301]
+
+# 301 --- /clone-haul-road => /custom-printed-bunting/
+RewriteRule ^clone-haul-road$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /clone-coopers-pale-ale => /custom-shaped-bunting/
+RewriteRule ^clone-coopers-pale-ale$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /shoes => /custom-printed-bunting/
+RewriteRule ^shoes$ /custom-printed-bunting/? [L,R=301]
+
+# 301 --- /safety-yellow-your-logo => /safety-bunting/
+RewriteRule ^safety-yellow-your-logo$ /safety-bunting/? [L,R=301]
+
+# 301 --- /category/bunting-category/custom-shaped-bunting => /custom-shaped-bunting/
+RewriteRule ^category/bunting-category/custom-shaped-bunting$ /custom-shaped-bunting/? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_view=slideshow.SlideshowMediaRss&g2_itemId=46 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_view=slideshow\.SlideshowMediaRss($|&)
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=46($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /category/bunting-category/pennant-bunting => /pennant-bunting/
+RewriteRule ^category/bunting-category/pennant-bunting$ /pennant-bunting/? [L,R=301]
+
+# 301 --- /contact/request-a-quote/About%20Bunting%20Quote%20Request => /contact-us/
+RewriteRule ^contact/request-a-quote/About%20Bunting%20Quote%20Request$ /contact-us/? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=122 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=122($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=30 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=30($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+# 301 --- /gallery/main.php?g2_itemId=361 => /
+RewriteCond %{QUERY_STRING} (^|&)g2_itemId=361($|&)
+RewriteRule ^gallery/main\.php$ /? [L,R=301]
+
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_mime.c>
+    AddType video/asf .asf .asx .wax .wmv .wmx
+    AddType video/avi .avi
+    AddType image/bmp .bmp
+    AddType application/java .class
+    AddType video/divx .divx
+    AddType application/msword .doc .docx
+    AddType application/vnd.ms-fontobject .eot
+    AddType application/x-msdownload .exe
+    AddType image/gif .gif
+    AddType application/x-gzip .gz .gzip
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType application/json .json
+    AddType application/vnd.ms-access .mdb
+    AddType audio/midi .mid .midi
+    AddType video/quicktime .mov .qt
+    AddType audio/mpeg .mp3 .m4a
+    AddType video/mp4 .mp4 .m4v
+    AddType video/mpeg .mpeg .mpg .mpe
+    AddType application/vnd.ms-project .mpp
+    AddType application/x-font-otf .otf
+    AddType application/vnd.ms-opentype .otf
+    AddType application/vnd.oasis.opendocument.database .odb
+    AddType application/vnd.oasis.opendocument.chart .odc
+    AddType application/vnd.oasis.opendocument.formula .odf
+    AddType application/vnd.oasis.opendocument.graphics .odg
+    AddType application/vnd.oasis.opendocument.presentation .odp
+    AddType application/vnd.oasis.opendocument.spreadsheet .ods
+    AddType application/vnd.oasis.opendocument.text .odt
+    AddType audio/ogg .ogg
+    AddType application/pdf .pdf
+    AddType image/png .png
+    AddType application/vnd.ms-powerpoint .pot .pps .ppt .pptx
+    AddType audio/x-realaudio .ra .ram
+    AddType image/svg+xml .svg .svgz
+    AddType application/x-shockwave-flash .swf
+    AddType application/x-tar .tar
+    AddType image/tiff .tif .tiff
+    AddType application/x-font-ttf .ttf .ttc
+    AddType application/vnd.ms-opentype .ttf .ttc
+    AddType audio/wav .wav
+    AddType audio/wma .wma
+    AddType application/vnd.ms-write .wri
+    AddType application/font-woff .woff
+    AddType application/vnd.ms-excel .xla .xls .xlsx .xlt .xlw
+    AddType application/zip .zip
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType video/asf A31536000
+    ExpiresByType video/avi A31536000
+    ExpiresByType image/bmp A31536000
+    ExpiresByType application/java A31536000
+    ExpiresByType video/divx A31536000
+    ExpiresByType application/msword A31536000
+    ExpiresByType application/vnd.ms-fontobject A31536000
+    ExpiresByType application/x-msdownload A31536000
+    ExpiresByType image/gif A31536000
+    ExpiresByType application/x-gzip A31536000
+    ExpiresByType image/x-icon A31536000
+    ExpiresByType image/jpeg A31536000
+    ExpiresByType application/json A31536000
+    ExpiresByType application/vnd.ms-access A31536000
+    ExpiresByType audio/midi A31536000
+    ExpiresByType video/quicktime A31536000
+    ExpiresByType audio/mpeg A31536000
+    ExpiresByType video/mp4 A31536000
+    ExpiresByType video/mpeg A31536000
+    ExpiresByType application/vnd.ms-project A31536000
+    ExpiresByType application/x-font-otf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType application/vnd.oasis.opendocument.database A31536000
+    ExpiresByType application/vnd.oasis.opendocument.chart A31536000
+    ExpiresByType application/vnd.oasis.opendocument.formula A31536000
+    ExpiresByType application/vnd.oasis.opendocument.graphics A31536000
+    ExpiresByType application/vnd.oasis.opendocument.presentation A31536000
+    ExpiresByType application/vnd.oasis.opendocument.spreadsheet A31536000
+    ExpiresByType application/vnd.oasis.opendocument.text A31536000
+    ExpiresByType audio/ogg A31536000
+    ExpiresByType application/pdf A31536000
+    ExpiresByType image/png A31536000
+    ExpiresByType application/vnd.ms-powerpoint A31536000
+    ExpiresByType audio/x-realaudio A31536000
+    ExpiresByType image/svg+xml A31536000
+    ExpiresByType application/x-shockwave-flash A31536000
+    ExpiresByType application/x-tar A31536000
+    ExpiresByType image/tiff A31536000
+    ExpiresByType application/x-font-ttf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType audio/wav A31536000
+    ExpiresByType audio/wma A31536000
+    ExpiresByType application/vnd.ms-write A31536000
+    ExpiresByType application/font-woff A31536000
+    ExpiresByType application/vnd.ms-excel A31536000
+    ExpiresByType application/zip A31536000
+</IfModule>
+<IfModule mod_deflate.c>
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon application/json
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+</IfModule>
+# END W3TC Browser Cache
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /commerce/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /commerce/index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+
+
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+<IfModule mod_deflate.c>
+# Insert filters
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-httpd-php
+AddOutputFilterByType DEFLATE application/x-httpd-fastphp
+AddOutputFilterByType DEFLATE image/svg+xml
+
+# Drop problematic browsers
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+
+# Make sure proxies don't deliver the wrong content
+Header append Vary User-Agent env=!dont-vary
+</IfModule>
+
+

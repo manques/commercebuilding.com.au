@@ -1,0 +1,85 @@
+Server Variables
+    SERVER_SOFTWARE = cpsrvd 11.62.0.15
+    DOCUMENT_ROOT = 
+
+LSCache Plugin Options
+    version = 1.0.14.1
+    enabled = 1
+    radio_select = 1
+    purge_upgrade = 1
+    cache_commenters = 1
+    cache_login = 1
+    cache_favicon = 1
+    cache_resources = 1
+    mobileview_enabled = 
+    mobileview_rules = 
+    login_cookie = 
+    tag_prefix = 
+    check_advancedcache = 1
+    debug = 0
+    admin_ips = 127.0.0.1
+    test_ips = 
+    public_ttl = 28800
+    front_page_ttl = 1800
+    feed_ttl = 0
+    403_ttl = 3600
+    404_ttl = 3600
+    500_ttl = 3600
+    nocache_vars = 
+    nocache_path = 
+    purge_by_post = A.F.H.M.PT.T
+    excludes_uri = 
+    excludes_cat = 
+    excludes_tag = 
+    nocache_cookies = 
+    nocache_useragents = 
+
+Wordpress Specific Extras
+    wordpress version = 4.4.7
+    locale = en_AU
+    active theme = Avada
+    active plugins = Array
+(
+    [0] => LayerSlider/layerslider.php
+    [1] => advanced-iframe/advanced-iframe.php
+    [2] => akismet/akismet.php
+    [3] => custom-sidebars/customsidebars.php
+    [4] => duplicate-post/duplicate-post.php
+    [5] => fusion-core/fusion-core.php
+    [6] => google-analytics-for-wordpress/googleanalytics.php
+    [7] => justified-image-grid/justified-image-grid.php
+    [8] => pretty-link/pretty-link.php
+    [9] => revslider/revslider.php
+    [10] => wordpress-seo/wp-seo.php
+    [11] => wp-sync-db-master/wp-sync-db.php
+    [12] => wp-sync-db-media-files-master/wp-sync-db-media-files.php
+)
+
+
+/home/commerceb/public_html/.htaccess contents:
+<IfModule LiteSpeed>
+###LSCACHE START PLUGIN - Do not edit the contents of this block!###
+RewriteEngine on
+CacheLookup Public on
+
+###LSCACHE START RESOURCE###
+RewriteRule wp-content/.*/[^/]*(loader|fonts|\.css|\.js)\.php - [E=cache-control:max-age=3600]
+###LSCACHE END RESOURCE###
+###LSCACHE START FAVICON###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+###LSCACHE END FAVICON###
+###LSCACHE END PLUGIN - Do not edit the contents of this block!###
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
